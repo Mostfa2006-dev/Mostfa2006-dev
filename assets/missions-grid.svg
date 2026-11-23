@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Active Gigs and Featured Cyberpunk Projects">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c17"/>
+      <stop offset="100%" stop-color="#11152a"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Consolas', 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', system-ui, sans-serif; }
+  </style>
+
+  <!-- Section Header -->
+  <text x="14" y="26" fill="#fcee0a" font-size="15" font-weight="900" class="mono" letter-spacing="2.5">03 // FIXER CONTRACTS — FEATURED MISSIONS</text>
+  <line x1="450" y1="21" x2="1186" y2="21" stroke="#fcee0a" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- CARD 1: CYBERPUNK SYSTEM BREAK -->
+  <g transform="translate(10, 48)">
+    <polygon points="16,0 380,0 380,246 364,262 0,262 0,16" fill="url(#cardBg)" stroke="#ff0055" stroke-width="1.5"/>
+    <rect x="0" y="0" width="380" height="6" fill="#ff0055"/>
+    <text x="20" y="34" fill="#ff0055" font-size="12" font-weight="bold" class="mono">GIG_01 // GAME ENGINE</text>
+    <text x="20" y="66" fill="#ffffff" font-size="22" font-weight="900" class="sans">CyberPunk: System Break</text>
+    <text x="20" y="96" fill="#cbd5e1" font-size="13" class="sans">Custom 2D cyberpunk action game</text>
+    <text x="20" y="116" fill="#cbd5e1" font-size="13" class="sans">engineered from scratch in C / SDL2</text>
+    <text x="20" y="136" fill="#cbd5e1" font-size="13" class="sans">with real-time rendering &amp; combat.</text>
+
+    <g transform="translate(20, 168)" class="mono" font-size="11">
+      <rect x="0" y="0" width="58" height="24" fill="#1e0b1a" stroke="#ff0055"/>
+      <text x="29" y="16" text-anchor="middle" fill="#ff0055">C / C++</text>
+      <rect x="68" y="0" width="58" height="24" fill="#1e0b1a" stroke="#fcee0a"/>
+      <text x="97" y="16" text-anchor="middle" fill="#fcee0a">SDL2</text>
+      <rect x="136" y="0" width="90" height="24" fill="#1e0b1a" stroke="#00f0ff"/>
+      <text x="181" y="16" text-anchor="middle" fill="#00f0ff">GAME LOOP</text>
+    </g>
+
+    <text x="20" y="238" fill="#fcee0a" font-size="12" font-weight="bold" class="mono">STATUS: ▶ PLAYABLE BUILD</text>
+  </g>
+
+  <!-- CARD 2: RENDEZVOUYA -->
+  <g transform="translate(410, 48)">
+    <polygon points="16,0 380,0 380,246 364,262 0,262 0,16" fill="url(#cardBg)" stroke="#00f0ff" stroke-width="1.5"/>
+    <rect x="0" y="0" width="380" height="6" fill="#00f0ff"/>
+    <text x="20" y="34" fill="#00f0ff" font-size="12" font-weight="bold" class="mono">GIG_02 // FULL-STACK + AI</text>
+    <text x="20" y="66" fill="#ffffff" font-size="22" font-weight="900" class="sans">Rendezvouya Platform</text>
+    <text x="20" y="96" fill="#cbd5e1" font-size="13" class="sans">Next-gen Tunisian medical platform:</text>
+    <text x="20" y="116" fill="#cbd5e1" font-size="13" class="sans">AI symptom triage, CNAM simulator,</text>
+    <text x="20" y="136" fill="#cbd5e1" font-size="13" class="sans">Next.js 16 + ESPRIT PHP MVC suite.</text>
+
+    <g transform="translate(20, 168)" class="mono" font-size="11">
+      <rect x="0" y="0" width="72" height="24" fill="#081e2c" stroke="#00f0ff"/>
+      <text x="36" y="16" text-anchor="middle" fill="#00f0ff">NEXT.JS</text>
+      <rect x="82" y="0" width="72" height="24" fill="#081e2c" stroke="#fcee0a"/>
+      <text x="118" y="16" text-anchor="middle" fill="#fcee0a">PHP MVC</text>
+      <rect x="164" y="0" width="84" height="24" fill="#081e2c" stroke="#ff0055"/>
+      <text x="206" y="16" text-anchor="middle" fill="#ff0055">AI TRIAGE</text>
+    </g>
+
+    <text x="20" y="238" fill="#00f0ff" font-size="12" font-weight="bold" class="mono">STATUS: ★ PRODUCTION READY</text>
+  </g>
+
+  <!-- CARD 3: LUAFORGE & ODYSSEUS -->
+  <g transform="translate(810, 48)">
+    <polygon points="16,0 380,0 380,246 364,262 0,262 0,16" fill="url(#cardBg)" stroke="#fcee0a" stroke-width="1.5"/>
+    <rect x="0" y="0" width="380" height="6" fill="#fcee0a"/>
+    <text x="20" y="34" fill="#fcee0a" font-size="12" font-weight="bold" class="mono">GIG_03 // TOOLING &amp; SCRIPTING</text>
+    <text x="20" y="66" fill="#ffffff" font-size="22" font-weight="900" class="sans">LuaForge &amp; Odysseus</text>
+    <text x="20" y="96" fill="#cbd5e1" font-size="13" class="sans">Developer utilities, Roblox Luau</text>
+    <text x="20" y="116" fill="#cbd5e1" font-size="13" class="sans">helper toolchain &amp; interactive JS</text>
+    <text x="20" y="136" fill="#cbd5e1" font-size="13" class="sans">web applications built for speed.</text>
+
+    <g transform="translate(20, 168)" class="mono" font-size="11">
+      <rect x="0" y="0" width="60" height="24" fill="#211d08" stroke="#fcee0a"/>
+      <text x="30" y="16" text-anchor="middle" fill="#fcee0a">LUAU</text>
+      <rect x="70" y="0" width="88" height="24" fill="#211d08" stroke="#00f0ff"/>
+      <text x="114" y="16" text-anchor="middle" fill="#00f0ff">JAVASCRIPT</text>
+      <rect x="168" y="0" width="66" height="24" fill="#211d08" stroke="#ff0055"/>
+      <text x="201" y="16" text-anchor="middle" fill="#ff0055">TOOLS</text>
+    </g>
+
+    <text x="20" y="238" fill="#fcee0a" font-size="12" font-weight="bold" class="mono">STATUS: ◈ OPEN SOURCE</text>
+  </g>
+</svg>
