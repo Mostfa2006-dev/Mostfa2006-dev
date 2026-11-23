@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 285" width="1200" height="285" role="img" aria-label="Tech Arsenal and Quickhacks">
+  <defs>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#12182e"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Consolas', 'Courier New', monospace; }
+    .chip-label { font-family: 'Consolas', 'Courier New', monospace; font-size: 13px; font-weight: bold; }
+  </style>
+
+  <!-- Solid Night City Canvas -->
+  <rect width="1200" height="285" fill="#06080f"/>
+
+  <text x="20" y="30" fill="#00f0ff" font-size="15" font-weight="900" class="mono" letter-spacing="2.5">03 // TECH ARSENAL &amp; QUICKHACKS</text>
+  <line x1="365" y1="25" x2="1182" y2="25" stroke="#00f0ff" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <polygon points="18,46 1182,46 1182,256 1164,274 18,274" fill="url(#boxGrad)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Row 1: Languages -->
+  <text x="38" y="80" fill="#fcee0a" font-size="12" font-weight="bold" class="mono" letter-spacing="1.8">[ NEURAL CORE // LANGUAGES ]</text>
+  <g transform="translate(38, 92)">
+    <rect x="0"   y="0" width="142" height="32" fill="#071521" stroke="#00f0ff" stroke-width="1.2"/><text x="71"  y="21" text-anchor="middle" fill="#00f0ff" class="chip-label">TYPESCRIPT</text>
+    <rect x="154" y="0" width="142" height="32" fill="#1d1907" stroke="#fcee0a" stroke-width="1.2"/><text x="225" y="21" text-anchor="middle" fill="#fcee0a" class="chip-label">JAVASCRIPT</text>
+    <rect x="308" y="0" width="110" height="32" fill="#210918" stroke="#ff0055" stroke-width="1.2"/><text x="363" y="21" text-anchor="middle" fill="#ff0055" class="chip-label">C / C++</text>
+    <rect x="430" y="0" width="118" height="32" fill="#071521" stroke="#00f0ff" stroke-width="1.2"/><text x="489" y="21" text-anchor="middle" fill="#00f0ff" class="chip-label">PHP 8 MVC</text>
+    <rect x="560" y="0" width="114" height="32" fill="#1d1907" stroke="#fcee0a" stroke-width="1.2"/><text x="617" y="21" text-anchor="middle" fill="#fcee0a" class="chip-label">PYTHON</text>
+    <rect x="686" y="0" width="142" height="32" fill="#071521" stroke="#00f0ff" stroke-width="1.2"/><text x="757" y="21" text-anchor="middle" fill="#00f0ff" class="chip-label">LUA / LUAU</text>
+    <rect x="840" y="0" width="132" height="32" fill="#210918" stroke="#ff0055" stroke-width="1.2"/><text x="906" y="21" text-anchor="middle" fill="#ff0055" class="chip-label">SQL / PDO</text>
+    <rect x="984" y="0" width="138" height="32" fill="#1d1907" stroke="#fcee0a" stroke-width="1.2"/><text x="1053" y="21" text-anchor="middle" fill="#fcee0a" class="chip-label">HTML5 / CSS3</text>
+  </g>
+
+  <!-- Row 2: Frameworks & Engines -->
+  <text x="38" y="156" fill="#00f0ff" font-size="12" font-weight="bold" class="mono" letter-spacing="1.8">[ FRAMEWORKS // GAME ENGINES // DATA &amp; OPS ]</text>
+  <g transform="translate(38, 168)">
+    <rect x="0"   y="0" width="128" height="32" fill="#0d1326" stroke="#ffffff" stroke-width="1.2"/><text x="64"  y="21" text-anchor="middle" fill="#ffffff" class="chip-label">NEXT.JS 16</text>
+    <rect x="140" y="0" width="110" height="32" fill="#071521" stroke="#00f0ff" stroke-width="1.2"/><text x="195" y="21" text-anchor="middle" fill="#00f0ff" class="chip-label">REACT</text>
+    <rect x="262" y="0" width="118" height="32" fill="#1d1907" stroke="#fcee0a" stroke-width="1.2"/><text x="321" y="21" text-anchor="middle" fill="#fcee0a" class="chip-label">NODE.JS</text>
+    <rect x="392" y="0" width="136" height="32" fill="#210918" stroke="#ff0055" stroke-width="1.2"/><text x="460" y="21" text-anchor="middle" fill="#ff0055" class="chip-label">SDL2 ENGINE</text>
+    <rect x="540" y="0" width="144" height="32" fill="#071521" stroke="#00f0ff" stroke-width="1.2"/><text x="612" y="21" text-anchor="middle" fill="#00f0ff" class="chip-label">POSTGRESQL</text>
+    <rect x="696" y="0" width="112" height="32" fill="#1d1907" stroke="#fcee0a" stroke-width="1.2"/><text x="752" y="21" text-anchor="middle" fill="#fcee0a" class="chip-label">MYSQL</text>
+    <rect x="820" y="0" width="114" height="32" fill="#071521" stroke="#00f0ff" stroke-width="1.2"/><text x="877" y="21" text-anchor="middle" fill="#00f0ff" class="chip-label">DOCKER</text>
+    <rect x="946" y="0" width="176" height="32" fill="#210918" stroke="#ff0055" stroke-width="1.2"/><text x="1034" y="21" text-anchor="middle" fill="#ff0055" class="chip-label">ROBLOX STUDIO</text>
+  </g>
+
+  <!-- Row 3: Security & AI Line -->
+  <text x="38" y="242" fill="#94a3b8" font-size="12" class="mono">&gt; LOADED MODULES: [AI_AGENTS] [CSRF_RBAC_SECURITY] [TAILWIND_CSS] [GIT_WORKFLOW] [LINUX_CLI] [VITE_TESTING]</text>
+</svg>

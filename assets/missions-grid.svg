@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Active Gigs and Featured Cyberpunk Projects">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 335" width="1200" height="335" role="img" aria-label="Active Gigs and Featured Cyberpunk Projects">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080c17"/>
-      <stop offset="100%" stop-color="#11152a"/>
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#131830"/>
     </linearGradient>
   </defs>
 
@@ -11,14 +11,17 @@
     .sans { font-family: 'Segoe UI', system-ui, sans-serif; }
   </style>
 
+  <!-- Full Dark Night City Canvas -->
+  <rect width="1200" height="335" fill="#06080f"/>
+
   <!-- Section Header -->
-  <text x="14" y="26" fill="#fcee0a" font-size="15" font-weight="900" class="mono" letter-spacing="2.5">03 // FIXER CONTRACTS — FEATURED MISSIONS</text>
-  <line x1="450" y1="21" x2="1186" y2="21" stroke="#fcee0a" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="20" y="32" fill="#fcee0a" font-size="15" font-weight="900" class="mono" letter-spacing="2.5">04 // FIXER CONTRACTS — FEATURED MISSIONS</text>
+  <line x1="460" y1="27" x2="1182" y2="27" stroke="#fcee0a" stroke-opacity="0.35" stroke-width="1.5"/>
 
   <!-- CARD 1: CYBERPUNK SYSTEM BREAK -->
-  <g transform="translate(10, 48)">
-    <polygon points="16,0 380,0 380,246 364,262 0,262 0,16" fill="url(#cardBg)" stroke="#ff0055" stroke-width="1.5"/>
-    <rect x="0" y="0" width="380" height="6" fill="#ff0055"/>
+  <g transform="translate(18, 54)">
+    <polygon points="16,0 374,0 374,246 358,262 0,262 0,16" fill="url(#cardBg)" stroke="#ff0055" stroke-width="1.5"/>
+    <rect x="0" y="0" width="374" height="6" fill="#ff0055"/>
     <text x="20" y="34" fill="#ff0055" font-size="12" font-weight="bold" class="mono">GIG_01 // GAME ENGINE</text>
     <text x="20" y="66" fill="#ffffff" font-size="22" font-weight="900" class="sans">CyberPunk: System Break</text>
     <text x="20" y="96" fill="#cbd5e1" font-size="13" class="sans">Custom 2D cyberpunk action game</text>
@@ -38,9 +41,9 @@
   </g>
 
   <!-- CARD 2: RENDEZVOUYA -->
-  <g transform="translate(410, 48)">
-    <polygon points="16,0 380,0 380,246 364,262 0,262 0,16" fill="url(#cardBg)" stroke="#00f0ff" stroke-width="1.5"/>
-    <rect x="0" y="0" width="380" height="6" fill="#00f0ff"/>
+  <g transform="translate(413, 54)">
+    <polygon points="16,0 374,0 374,246 358,262 0,262 0,16" fill="url(#cardBg)" stroke="#00f0ff" stroke-width="1.5"/>
+    <rect x="0" y="0" width="374" height="6" fill="#00f0ff"/>
     <text x="20" y="34" fill="#00f0ff" font-size="12" font-weight="bold" class="mono">GIG_02 // FULL-STACK + AI</text>
     <text x="20" y="66" fill="#ffffff" font-size="22" font-weight="900" class="sans">Rendezvouya Platform</text>
     <text x="20" y="96" fill="#cbd5e1" font-size="13" class="sans">Next-gen Tunisian medical platform:</text>
@@ -60,9 +63,9 @@
   </g>
 
   <!-- CARD 3: LUAFORGE & ODYSSEUS -->
-  <g transform="translate(810, 48)">
-    <polygon points="16,0 380,0 380,246 364,262 0,262 0,16" fill="url(#cardBg)" stroke="#fcee0a" stroke-width="1.5"/>
-    <rect x="0" y="0" width="380" height="6" fill="#fcee0a"/>
+  <g transform="translate(808, 54)">
+    <polygon points="16,0 374,0 374,246 358,262 0,262 0,16" fill="url(#cardBg)" stroke="#fcee0a" stroke-width="1.5"/>
+    <rect x="0" y="0" width="374" height="6" fill="#fcee0a"/>
     <text x="20" y="34" fill="#fcee0a" font-size="12" font-weight="bold" class="mono">GIG_03 // TOOLING &amp; SCRIPTING</text>
     <text x="20" y="66" fill="#ffffff" font-size="22" font-weight="900" class="sans">LuaForge &amp; Odysseus</text>
     <text x="20" y="96" fill="#cbd5e1" font-size="13" class="sans">Developer utilities, Roblox Luau</text>

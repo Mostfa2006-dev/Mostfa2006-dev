@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 265" width="1200" height="265" role="img" aria-label="Cyberdeck Inventory Loadout">
+  <defs>
+    <linearGradient id="invBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d19"/>
+      <stop offset="100%" stop-color="#13162b"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Consolas', 'Courier New', monospace; }
+  </style>
+
+  <!-- Full Dark Canvas -->
+  <rect width="1200" height="265" fill="#06080f"/>
+
+  <text x="20" y="30" fill="#ff0055" font-size="15" font-weight="900" class="mono" letter-spacing="2.5">05 // CYBERDECK INVENTORY &amp; LOADOUT</text>
+  <line x1="415" y1="25" x2="1182" y2="25" stroke="#ff0055" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <polygon points="18,46 1182,46 1182,238 1164,256 18,256" fill="url(#invBg)" stroke="#00f0ff" stroke-opacity="0.45" stroke-width="1.5"/>
+
+  <g transform="translate(42, 82)" class="mono" font-size="14">
+    <!-- Left Column -->
+    <text x="0" y="0" fill="#fcee0a">[01]</text>
+    <text x="48" y="0" fill="#ffffff" font-weight="bold">OVERCLOCKED ESPRESSO</text>
+    <text x="350" y="0" fill="#00f0ff">x∞</text>
+    <text x="440" y="0" fill="#22c55e">[ACTIVE]</text>
+
+    <text x="0" y="42" fill="#fcee0a">[02]</text>
+    <text x="48" y="42" fill="#ffffff" font-weight="bold">NOISE-CANCEL OPTICS</text>
+    <text x="350" y="42" fill="#00f0ff">MK.V</text>
+    <text x="440" y="42" fill="#00f0ff">[EQUIPPED]</text>
+
+    <text x="0" y="84" fill="#fcee0a">[03]</text>
+    <text x="48" y="84" fill="#ffffff" font-weight="bold">GAME ENGINE DEVKIT</text>
+    <text x="350" y="84" fill="#00f0ff">SDL2</text>
+    <text x="440" y="84" fill="#fcee0a">[READY]</text>
+
+    <text x="0" y="126" fill="#fcee0a">[04]</text>
+    <text x="48" y="126" fill="#ffffff" font-weight="bold">AI DAEMON SUITE</text>
+    <text x="350" y="126" fill="#00f0ff">LLM</text>
+    <text x="440" y="126" fill="#22c55e">[ONLINE]</text>
+
+    <!-- Vertical Separator -->
+    <line x1="560" y1="-16" x2="560" y2="142" stroke="#1e293b" stroke-width="1.5"/>
+
+    <!-- Right Column -->
+    <text x="590" y="0" fill="#ff0055">[05]</text>
+    <text x="638" y="0" fill="#ffffff" font-weight="bold">SECURITY ICE BREAKER</text>
+    <text x="960" y="0" fill="#fcee0a">[ARMED]</text>
+
+    <text x="590" y="42" fill="#ff0055">[06]</text>
+    <text x="638" y="42" fill="#ffffff" font-weight="bold">SLEEP MODULE</text>
+    <text x="960" y="42" fill="#ff0055">[ERR_404]</text>
+
+    <text x="590" y="84" fill="#00f0ff">MOTTO //</text>
+    <text x="590" y="108" fill="#cbd5e1" font-size="13">"Break limits, ship clean systems,</text>
+    <text x="590" y="128" fill="#cbd5e1" font-size="13"> never stop upgrading the rig."</text>
+  </g>
+</svg>
